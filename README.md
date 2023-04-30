@@ -8,7 +8,7 @@ Tracking monthly active users (MAUs) is a common practice for websites and onlin
   * Benchmarking and comparison: MAUs can be used to benchmark a website's performance against industry peers or competitors. Understanding how a website's MAUs compare to similar websites or industry standards can provide valuable insights into the website's relative position in the market, potential areas for improvement, and opportunities for growth.
   * Reporting and communication: MAUs are often used as a key metric in reporting to stakeholders, investors, or partners. Tracking and reporting MAUs can help convey the website's user base and engagement levels, which can be important for communication purposes, financial reporting, and business development activities.
 ## Data Understanding
-The user_acions table below shows the activities of users on a website. These table will be queried to find the monthly active users.
+The user_acions table below shows the activities of users on a website. These table will be queried to find the monthly active users.  
 ![](user_action.PNG)
 ## SQL Query
 SELECT EXTRACT(MONTH FROM event_date) AS Month,  
